@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="syns">
+        <div class="cal ">
+            <div class="input">
+                <input type="text"  id="inputField"  disabled placeholder="ENTER THIS NUMBER ">
+            </div>
+                <table class="meaaaa">
+                    <tr>
+                        <td onclick="share()">ON</td>
+                        <td onclick="share('+')">+</td>
+                        <td onclick="share('-')">-</td>
+                        <td onclick="share('*')">*</td>
+                    </tr>
+                    <tr>
+                        <td onclick="share(3)">3</td>
+                        <td onclick="share(6)">6</td>
+                        <td onclick="share(9)">9</td>
+                        <td onclick="share('/')">/</td>
+
+                    </tr>
+                    <tr>
+                        <td onclick="share(2)">2</td>
+                        <td onclick="share(5)">5</td>
+                        <td onclick="share(8)">8</td>
+                        <td onclick="allClearValue()">AC</td>
+
+                    </tr>
+                    <tr>
+                        <td onclick="share(1)">1</td>
+                        <td onclick="share(4)">4</td>
+                        <td onclick="share(7)">7</td>
+                        <td onclick="ClearValue()">C</td>
+
+                    </tr>
+                    <tr>
+                        <td onclick="addValue(0)">0</td>
+                        <td onclick="addValue('.')">.</td>
+                        
+                        <td  colspan="2" onclick="result()">=</td>
+                    </tr>
+                </table> 
+        
+            
+        </div>
+    </div>
+</body>
+<script src="app.js"></script>
+</html>
